@@ -21,10 +21,10 @@ public class ASUHelloWorldJavaFX extends Application {
         btn.setText("Display: 'Billie says: Hello World!'");
         btn.setOnAction(new EventHandler<>() {
             public void handle(ActionEvent event) {
-                System.out.println("Billie  says: Hello Wor ld!");
+                System.out.println("Billie  says: Hello World!");
             }
         });
-        
+         
         StackPane root = new StackPane();
         root.getChildren().add(btn);
         primaryStage.setScene(new Scene(root, 300, 250));
