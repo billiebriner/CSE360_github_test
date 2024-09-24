@@ -11,7 +11,7 @@ import javafx.stage.Stage;
 public class ASUHelloWorldJavaFX extends Application {
     public static void main(String[] args) {
         launch(args);
-    }
+    } 
     
     public void start(Stage primaryStage) {
     	System.out.println("ASU Hello World!");
@@ -21,7 +21,7 @@ public class ASUHelloWorldJavaFX extends Application {
         btn.setText("Display: 'Billie says: Hello World!'");
         btn.setOnAction(new EventHandler<>() {
             public void handle(ActionEvent event) {
-                System.out.println("Billie says: Hello World!");
+                System.out.println("Billie says: Hello Wor ld!");
             }
         });
         
